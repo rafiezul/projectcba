@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity {
                 String userid = txtuserid.getText().toString();
                 String userpwd = txtPassword.getText().toString();
 
-                tverrormsg.setText("Sedang Login");
+                tverrormsg.setText("LOGGING IN...");
                 p.AppLogin(userid,userpwd);
 
 
@@ -115,7 +115,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
 
                 if(errmsg.length() > 0){
-                    tverrormsg.setText("error: "+ errmsg);
+                    tverrormsg.setText("ERROR: "+ errmsg);
                 }
 
 

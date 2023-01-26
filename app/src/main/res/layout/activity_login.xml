@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg"
     tools:context=".LoginActivity">
 
     <LinearLayout
@@ -14,21 +15,21 @@
         tools:layout_editor_absoluteY="29dp">
 
         <TextView
-            android:id="@+id/errormsg"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=" " />
-
-        <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="USER ID" />
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="USERNAME" />
 
         <EditText
             android:id="@+id/txtuserid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="" />
@@ -37,12 +38,18 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Password" />
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="PASSWORD" />
 
         <EditText
             android:id="@+id/txtPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
             android:ems="10"
             android:inputType="textPassword" />
 
@@ -50,7 +57,21 @@
             android:id="@+id/btnsignin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="100dp"
             android:text="Sign In" />
+
+        <TextView
+            android:id="@+id/errormsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center_horizontal"
+            android:text=" " />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
