@@ -15,6 +15,9 @@
 <a href="https://github.com/AgentHitmanFaris/QR_BLE/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=AgentHitmanFaris/QR_BLE" />
 </a>
+<a href="https://github.com/Faiz38/DSPNoiseCancelling/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Faiz38/DSPNoiseCancelling" />
+</a>
 
 <h3>Version Update</h3>
 <p>
