@@ -51,5 +51,7 @@ dependencies {
 
     //Barcode Library
     implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+    //Bluetooth Implementation
+    //implementation 'com.vise.xiaoyaoyou :baseble:2.0.5'
 
 }
